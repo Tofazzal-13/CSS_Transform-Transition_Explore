@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .inner{
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            border: 2px solid tomato;
+            background-color: aqua;
+            transition: width 5s ease-in 1s, transform 1s ease-in 1s;
+        }
+        .inner:hover{
+            width: 500px;
+            transform: translate(50px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">hello</div>
+        <div class="inner">hello</div>
+        <div class="inner">hello</div>
+    </div>
+</body>
+</html>
