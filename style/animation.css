@@ -1,0 +1,57 @@
+.stage{
+    width: 700px;
+    height: 300px;
+    border: 2px solid steelblue;
+    background-color: aqua;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: bounce 5s ease-in 1s infinite ;
+    -webkit-animation: bounce 3s ease-in 1s infinite ;
+}
+
+@keyframes pink_pong {
+    from{
+        left: 0;
+    }
+    to{
+        left: 400px;
+        background-color: red;
+    }
+}
+@keyframes bounce {
+    0%{
+        top: 0;
+        left: 0;
+        
+    }
+    25%{
+        top: 200px;
+        left: 150px;
+        background-color: brown;
+    }
+    50%{
+        top: 0;
+        left: 300px;
+        background-color: yellow;
+        
+    }
+    75%{
+        top: 200px;
+        left: 450px;
+        background-color: brown;
+    }
+    100%{
+        top:0px ;
+        left: 600px;
+        background-color: blueviolet;
+    } 
+}

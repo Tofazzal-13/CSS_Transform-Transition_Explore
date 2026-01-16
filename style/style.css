@@ -15,15 +15,15 @@
     position: relative;
     left: 516px;
     border-radius: 50%;
-    transition: transform 1s ease-out 0.1s;
+    transition: transform 1s ease-in 0.1s;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    -webkit-transition: transform 1s ease-out 0.1s;
-    -moz-transition: transform 1s ease-out 0.1s;
-    -ms-transition: transform 1s ease-out 0.1s;
-    -o-transition: transform 1s ease-out 0.1s;
+    -webkit-transition: transform 1s ease-in 0.1s;
+    -moz-transition: transform 1s ease-in 0.1s;
+    -ms-transition: transform 1s ease-in 0.1s;
+    -o-transition: transform 1s ease-in 0.1s;
 }
 .feild:hover .bat{
     transform-origin: top right;
